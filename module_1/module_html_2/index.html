@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Module HTML 2</title>
+    <style>
+        body {
+            /* to centre page on screen*/
+            margin: 0;
+            padding: 0;
+        }
+
+        td.style_from_cell {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        td.style_from_cell_text_centre {
+            text-align: center;
+        }
+
+        table {
+            width: 45%;
+        }
+
+        td {
+            padding: 5px 7px;
+        }
+
+        label {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="table_information">
+    <table border="1">
+        <caption>Добыча драгоценных камней</caption>
+        <tr>
+            <td width="15%">&nbsp;</td>
+            <td width="10%" class="style_from_cell">2010</td>
+            <td width="10%" class="style_from_cell">2012</td>
+            <td width="10%" class="style_from_cell">2014</td>
+        </tr>
+        <tr>
+            <td>Сапфиры</td>
+            <td rowspan="2">1483</td>
+            <td>4532</td>
+            <td>6743</td>
+        </tr>
+        <tr>
+            <td>Рубины</td>
+            <td>3835</td>
+            <td>7482</td>
+        </tr>
+        <tr>
+            <td>Алмазы</td>
+            <td>683</td>
+            <td colspan="2" class="style_from_cell_text_centre">238</td>
+        </tr>
+    </table>
+</div>
+<div id="form_input">
+    <h1>Анкета питомца</h1>
+    <form action="#">
+        <fieldset style="border: 0;">
+            <p><input type="text" id="name"><label for="name">Порода</label></p>
+            <p><input type="text" id="breed"><label for="breed">Кличка<label></p>
+            <p><select id="color_name">
+                <option>Тигровый</option>
+                <option>Красный</option>
+            </select><label for="color_name">Выберете Цвет<label></p>
+            <button type="submit" id="submit_form_input">Отправить</button>
+        </fieldset>
+    </form>
+</div>
+</body>
+
+</html>
