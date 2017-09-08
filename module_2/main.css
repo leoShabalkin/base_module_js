@@ -1,0 +1,59 @@
+body {
+    font-family: Geneva, Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+#container {
+    width: 100%;
+}
+
+#elisabeth, #eric, #elisabeth_text, #eric_text {
+    height: 350px;
+    position: relative;
+    display: inline-block;
+}
+
+.style_width_520 {
+    width: 520px;
+}
+
+.style_width_350 {
+    width: 350px;
+}
+
+.style_position_elisabeth {
+    position: absolute;
+    left: 98px;
+    top: 34px;
+}
+
+.style_position_eric {
+    position: absolute;
+    left: 44px;
+    top: 35px;
+}
+
+#inner_eric_text {
+    top: 28px;
+    left: 42px;
+    width: 426px;
+    line-height: 19px;
+}
+
+#inner_elisabeth_text {
+    position: absolute;
+    top: 11px;
+    left: 66px;
+    width: 430px;
+    line-height: 19px;
+}
+
+#container_text {
+    width: 100%;
+}
+
+
