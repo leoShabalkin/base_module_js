@@ -1,6 +1,6 @@
 body {
-    font-family: Geneva, Arial, sans-serif;
-    font-size: 18px;
+    font-family: Geneva, Verdana, Arial, sans-serif;
+    font-size: 16px;
     color: #333;
     margin: 0;
     padding: 0;
@@ -17,24 +17,8 @@ body {
     display: inline-block;
 }
 
-.style_width_520 {
-    width: 520px;
-}
-
-.style_width_350 {
-    width: 350px;
-}
-
-.style_position_elisabeth {
-    position: absolute;
-    left: 98px;
-    top: 34px;
-}
-
-.style_position_eric {
-    position: absolute;
-    left: 44px;
-    top: 35px;
+#elisabeth_text, #eric_text {
+    height: 272px;
 }
 
 #inner_eric_text {
@@ -42,6 +26,7 @@ body {
     left: 42px;
     width: 426px;
     line-height: 19px;
+    white-space: pre-line;
 }
 
 #inner_elisabeth_text {
@@ -55,5 +40,97 @@ body {
 #container_text {
     width: 100%;
 }
+
+.container_content {
+    width: 100%;
+    margin-left: 151px;
+}
+
+.text_content {
+    position: relative;
+    width: 720px;
+}
+
+.introduction_content {
+    margin-left: 80px;
+}
+
+.style_width_520 {
+    width: 520px;
+}
+
+.style_width_350 {
+    width: 350px;
+}
+
+.style_position_elisabeth {
+    position: absolute;
+    left: 98px;
+    top: 35px;
+}
+
+.style_position_eric {
+    position: absolute;
+    left: 42px;
+    top: 35px;
+}
+
+.container_block_content {
+    height: 528px;
+    width: 850px;
+}
+
+.page_content.nostyle {
+    margin-left: 263px;
+    margin-top: 20px;
+    width: 689px;
+}
+
+.nostyle ul > li, li.nostyle {
+    list-style-type: none;
+    margin-bottom: 13px;
+    counter-reset: item;
+}
+
+.counter {
+    counter-reset: item;
+    list-style-type: none;
+}
+
+.counter_list + li:before {
+    content: counter(item) "  ";
+    counter-increment: item;
+}
+
+.page_content li {
+    margin-bottom: 13px;
+}
+
+.content_list {
+    margin-left: 32px;
+}
+
+.content_list_double_digital {
+    margin-left: 22px;
+}
+
+.position_page {
+    float: right;
+}
+
+.page_content {
+    text-align: left;
+    margin-left: 295px;
+    width: 650px;
+    margin-top: 25px;
+    font-size: 13.5px;
+}
+
+.mini_text {
+    display: inline-block;
+    margin-left: 45px;
+}
+
+
 
 
