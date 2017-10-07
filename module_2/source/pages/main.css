@@ -1,0 +1,45 @@
+body {
+    font-family: Geneva, Verdana, Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.div_union {
+    height: 590px;
+    width: 400px;
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.image {
+    height:400px;
+}
+
+.marin_non {
+    margin-top: 0;
+}
+
+.div_indentation {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 800px;
+}
+.table_size {
+    width:900px;
+}
+
+table.table_keep td {
+    padding-bottom: 20px;
+}
+
+.valign_index {
+    vertical-align: top;
+}
+
+.valign_page {
+    vertical-align: bottom;
+}
